@@ -46,8 +46,5 @@ pdflatex Dokumentation.tex
 # Remove the generated doxygen manual
 rm "$docsDirectoryPath/refman.pdf"
 
-# Remove every file that starts with "Dokumentation" except for Dokumentation.pdf and Dokumentation.tex
-rm $(find . -type f -name "Dokumentation*" ! -name "Dokumentation.pdf" ! -name "Dokumentation.tex")
-
 # Go back to the current working directory
 cd "$cwdBackup"

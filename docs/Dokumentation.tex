@@ -15,8 +15,6 @@
 % hiermit kann das €-Zeichen direkt eingegeben werden
 \usepackage{eurosym}  \DeclareUnicodeCharacter{20AC}{\euro}
 
-\usepackage[pdftitle={}, pdfauthor={}, pdfstartview=FitH, colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black]{hyperref}
-
 % Seitenränder
 \usepackage{geometry}
 \geometry{a4paper,left=20mm,right=20mm,bottom=20mm,top=15mm,bindingoffset=0mm,includehead,includefoot}
@@ -29,9 +27,8 @@
 % kein Erstzeileneinzug und etwas mehr Zeilenabstand
 \setlength{\parindent}{0pt}  \linespread{1.1}
 
-% Angaben für das Literaturverzeichnis
-\usepackage[backend=bibtex, style=alphabetic, bibencoding=ascii]{biblatex}
-\addbibresource{vorlage.bib}
+\usepackage[pdftitle={}, pdfauthor={}, pdfstartview=FitH, colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black]{hyperref}
+
 \usepackage{csquotes}
 
 % Einstellungen für C#-Sourcecode
