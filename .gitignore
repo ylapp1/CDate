@@ -1,0 +1,12 @@
+docs/doxygen/*
+check
+
+# latex tmp files
+docs/*.bib
+docs/*.aux
+docs/*.log
+docs/*.run.xml
+docs/*.synctex.gz
+docs/*.toc
+docs/*.out
+docs/*.pdf
